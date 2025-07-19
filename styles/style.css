@@ -50,3 +50,37 @@ nav>h3 {
     font-weight: 700;
     text-align: center;
 }
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    g
+}
+.action-btn{
+    font-family: Raleway;
+    border-radius: 6px;
+    border: none;
+    background: rgb(78, 71, 255);
+    color: white;
+    width: 165px;
+    height: 40px;
+    font-weight: 600;
+    
+
+}
+.action-content{
+   display: flex;
+   flex-direction: column;
+   gap: 35px;
+}
+
+.action-content > h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+.action-content > p{
+font-size: 16px;
+font-weight: 400;
+}
